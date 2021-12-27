@@ -1,0 +1,6 @@
+.DS_Store
+.RData
+.Rhistory
+.Rproj.user
+data-raw/*.docx
+data-raw/.DS_Store
