@@ -43,3 +43,5 @@ vignettes/*.pdf
 .DS_Store
 
 data-raw/*.docx
+
+gitScript.sh
