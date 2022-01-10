@@ -15,10 +15,4 @@ doc <- textreadr::read_document(here::here("data-raw", "<doc_name>.docx"))
 values <- check.acronyms(paste0(doc, collapse=" "))
 
 
-
-
-
-Testing
-
-
 #View(df)
