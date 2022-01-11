@@ -11,8 +11,8 @@ source(here::here("R", "checkDash.R"))
 source(here::here("R", "getTotalWordCountFrequency.R"))
 source(here::here("R", "sentenceWordCount.R"))
 
-doc <- textreadr::read_document(here::here("data-raw", "<doc_name>.docx"))
-values <- check.acronyms(paste0(doc, collapse=" "))
-
+doc <- textreadr::read_document(here::here("data-raw", "<doc>.docx"))
+#values <- check.acronyms(paste0(doc, collapse=" "))
+values <- checkDash(doc, T)
 
 #View(df)
